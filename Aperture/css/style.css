@@ -3,3 +3,50 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    max-width: 1440px;
+    margin: auto;
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    background-color: #181818;
+    padding: 20px 20px 20px 32px;
+}
+.logo{
+    padding-top: 20px;
+    max-width: 128px;
+}
+nav .d-flex li{
+    padding: 15px 20px;
+    list-style: none;
+}
+.navigation {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+.template{
+    border-radius: 14px;
+    background-color: #ffffff;
+}
+.template a{
+    padding: 9px 20px 13px 20px;
+    text-decoration: none;
+    color: #000000;
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0.40px;
+word-wrap: break-word
+}
+
